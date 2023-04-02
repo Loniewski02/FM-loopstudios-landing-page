@@ -592,7 +592,6 @@ body {
 		&__box {
 			padding: 3em 6em 3em 3em;
 			max-width: 600px;
-			border: 1px solid $white;
 		}
 
 		&__heading {
@@ -610,6 +609,7 @@ body {
 
 		&__img {
 			max-width: 600px;
+			content: url('../img/desktop/image-interactive.jpg');
 		}
 
 		&__box {
@@ -648,7 +648,6 @@ body {
 		&__box {
 			padding: 2em;
 			max-width: 650px;
-			border: 2px solid $white;
 		}
 
 		&__heading {
@@ -673,6 +672,7 @@ body {
 	}
 
 	.projects {
+		padding-top: 2em;
 		padding-bottom: 10em;
 		&__boxes {
 			justify-content: space-between;
