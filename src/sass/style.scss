@@ -79,6 +79,7 @@ body {
 		padding: 0 1.5em;
 		background-color: $black;
 		z-index: 1000;
+		transition: transform 0.3s;
 
 		&--active {
 			transform: translateX(0);
