@@ -29,7 +29,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./desktop-view.png)
+![](./desktop-view1.png)
+![](./mobile-view1.png)
+![](./mobile-view2.png)
+![](./mobile-view3.png)
+![](./mobile-view4.png)
+![](./mobile-view5.png)
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
