@@ -578,6 +578,7 @@ body {
 	}
 
 	.nav {
+		padding: 4em 2em;
 		&__logo {
 			width: 192px;
 			height: 32px;
@@ -645,16 +646,18 @@ body {
 	.header {
 		&__box {
 			padding: 2em;
-			max-width: 700px;
-			border: 1px solid $white;
+			max-width: 650px;
+			border: 2px solid $white;
 		}
 
 		&__heading {
 			font-size: 7.2rem;
+			line-height: 0.9em;
 		}
 	}
 
 	.aboutus {
+		padding: 9em 2em;
 		&__img {
 			max-width: 731px;
 		}
@@ -668,6 +671,7 @@ body {
 	}
 
 	.projects {
+		padding-bottom: 9em;
 		&__boxes {
 			justify-content: space-between;
 		}
@@ -684,4 +688,3 @@ body {
 		}
 	}
 }
-

@@ -1,6 +1,7 @@
 const burgerBtn = document.querySelector('.nav__menu');
 const nav = document.querySelector('.nav');
 const navItems = document.querySelector('.nav__items');
+const allNavItems = document.querySelectorAll('.nav__item');
 
 burgerBtn.addEventListener('click', () => {
 	navItems.classList.toggle('nav__items--active');
@@ -13,4 +14,11 @@ burgerBtn.addEventListener('click', () => {
 		burgerBtn.setAttribute('src', './dist/img/icon-hamburger.svg');
 		nav.style.position = 'absolute';
 	}
+
+	allNavItems.forEach(item =>
+		item.addEventListener('click', () => {
+			navItems.classList.remove('nav__items--active');
+			burgerBtn.setAttribute('src', './dist/img/icon-hamburger.svg');
+		})
+	);
 });
