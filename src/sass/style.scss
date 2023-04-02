@@ -652,12 +652,12 @@ body {
 
 		&__heading {
 			font-size: 7.2rem;
-			line-height: 0.9em;
+			line-height: 1em;
 		}
 	}
 
 	.aboutus {
-		padding: 9em 2em;
+		padding: 10em 2em;
 		&__img {
 			max-width: 731px;
 		}
@@ -671,7 +671,8 @@ body {
 	}
 
 	.projects {
-		padding-bottom: 9em;
+		padding-top: 4em;
+		padding-bottom: 10em;
 		&__boxes {
 			justify-content: space-between;
 		}
