@@ -37,7 +37,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Code](https://github.com/Loniewski02/FM-loopstudios-landing-page)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/html-sass-js-loopstudios-landing-page-o3OKhXizlb)
 - Live Site URL: [Live](https://loniewski02.github.io/FM-loopstudios-landing-page/)
 
 ## My process
